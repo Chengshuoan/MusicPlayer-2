@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C25599CC1B258E1F0059F4EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C25599CB1B258E1F0059F4EB /* main.m */; };
+		C25599D71B258E1F0059F4EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25599D61B258E1F0059F4EB /* Images.xcassets */; };
+		C25599DA1B258E1F0059F4EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25599D81B258E1F0059F4EB /* LaunchScreen.xib */; };
+		C25599E61B258E200059F4EB /* MusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C25599E51B258E200059F4EB /* MusicPlayerTests.m */; };
+		C2559A1E1B259BC90059F4EB /* SpecialTrainCampController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2559A0D1B259BC90059F4EB /* SpecialTrainCampController.m */; };
+		C2559A1F1B259BC90059F4EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2559A121B259BC90059F4EB /* AppDelegate.m */; };
+		C2559A231B259BC90059F4EB /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2559A191B259BC90059F4EB /* CustomTabBarController.m */; };
+		C2559A241B259BC90059F4EB /* HotTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2559A1B1B259BC90059F4EB /* HotTopicController.m */; };
+		C2D06B9D1B2833B500FCC492 /* MovieListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D06B9C1B2833B500FCC492 /* MovieListCell.m */; };
+		C2D06BA01B28388300FCC492 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D06B9F1B28388300FCC492 /* HomeController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C25599E01B258E200059F4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25599BE1B258E1F0059F4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25599C51B258E1F0059F4EB;
+			remoteInfo = MusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C25599C61B258E1F0059F4EB /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25599CA1B258E1F0059F4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25599CB1B258E1F0059F4EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C25599D61B258E1F0059F4EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C25599D91B258E1F0059F4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C25599DF1B258E200059F4EB /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25599E41B258E200059F4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25599E51B258E200059F4EB /* MusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTests.m; sourceTree = "<group>"; };
+		C2559A0C1B259BC90059F4EB /* SpecialTrainCampController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecialTrainCampController.h; path = ../../HotTopic/Controller/SpecialTrainCampController.h; sourceTree = "<group>"; };
+		C2559A0D1B259BC90059F4EB /* SpecialTrainCampController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecialTrainCampController.m; path = ../../HotTopic/Controller/SpecialTrainCampController.m; sourceTree = "<group>"; };
+		C2559A111B259BC90059F4EB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2559A121B259BC90059F4EB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2559A181B259BC90059F4EB /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTabBarController.h; path = ../CustomTabBarController.h; sourceTree = "<group>"; };
+		C2559A191B259BC90059F4EB /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTabBarController.m; path = ../CustomTabBarController.m; sourceTree = "<group>"; };
+		C2559A1A1B259BC90059F4EB /* HotTopicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotTopicController.h; path = ../../specialTrainCamp/HotTopicController.h; sourceTree = "<group>"; };
+		C2559A1B1B259BC90059F4EB /* HotTopicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotTopicController.m; path = ../../specialTrainCamp/HotTopicController.m; sourceTree = "<group>"; };
+		C2D06B9B1B2833B500FCC492 /* MovieListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListCell.h; sourceTree = "<group>"; };
+		C2D06B9C1B2833B500FCC492 /* MovieListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListCell.m; sourceTree = "<group>"; };
+		C2D06B9E1B28388300FCC492 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		C2D06B9F1B28388300FCC492 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C25599C31B258E1F0059F4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25599DC1B258E200059F4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C25599BD1B258E1F0059F4EB = {
+			isa = PBXGroup;
+			children = (
+				C25599C81B258E1F0059F4EB /* MusicPlayer */,
+				C25599E21B258E200059F4EB /* MusicPlayerTests */,
+				C25599C71B258E1F0059F4EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C25599C71B258E1F0059F4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25599C61B258E1F0059F4EB /* MusicPlayer.app */,
+				C25599DF1B258E200059F4EB /* MusicPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C25599C81B258E1F0059F4EB /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C2559A161B259BC90059F4EB /* specialTrainCamp */,
+				C2559A0A1B259BC90059F4EB /* HotTopic */,
+				C2559A101B259BC90059F4EB /* Other */,
+				C25599D61B258E1F0059F4EB /* Images.xcassets */,
+				C25599D81B258E1F0059F4EB /* LaunchScreen.xib */,
+				C25599C91B258E1F0059F4EB /* Supporting Files */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		C25599C91B258E1F0059F4EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C25599CA1B258E1F0059F4EB /* Info.plist */,
+				C25599CB1B258E1F0059F4EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C25599E21B258E200059F4EB /* MusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C25599E51B258E200059F4EB /* MusicPlayerTests.m */,
+				C25599E31B258E200059F4EB /* Supporting Files */,
+			);
+			path = MusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		C25599E31B258E200059F4EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C25599E41B258E200059F4EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2559A0A1B259BC90059F4EB /* HotTopic */ = {
+			isa = PBXGroup;
+			children = (
+				C2559A0B1B259BC90059F4EB /* Controller */,
+				C2559A0E1B259BC90059F4EB /* Model */,
+				C2559A0F1B259BC90059F4EB /* View */,
+			);
+			path = HotTopic;
+			sourceTree = "<group>";
+		};
+		C2559A0B1B259BC90059F4EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2559A1A1B259BC90059F4EB /* HotTopicController.h */,
+				C2559A1B1B259BC90059F4EB /* HotTopicController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2559A0E1B259BC90059F4EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2559A0F1B259BC90059F4EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2559A101B259BC90059F4EB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C2559A111B259BC90059F4EB /* AppDelegate.h */,
+				C2559A121B259BC90059F4EB /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C2559A161B259BC90059F4EB /* specialTrainCamp */ = {
+			isa = PBXGroup;
+			children = (
+				C2559A171B259BC90059F4EB /* Controller */,
+				C2559A1C1B259BC90059F4EB /* Model */,
+				C2559A1D1B259BC90059F4EB /* View */,
+			);
+			path = specialTrainCamp;
+			sourceTree = "<group>";
+		};
+		C2559A171B259BC90059F4EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2559A181B259BC90059F4EB /* CustomTabBarController.h */,
+				C2559A191B259BC90059F4EB /* CustomTabBarController.m */,
+				C2559A0C1B259BC90059F4EB /* SpecialTrainCampController.h */,
+				C2559A0D1B259BC90059F4EB /* SpecialTrainCampController.m */,
+				C2D06B9E1B28388300FCC492 /* HomeController.h */,
+				C2D06B9F1B28388300FCC492 /* HomeController.m */,
+				C2D06B9B1B2833B500FCC492 /* MovieListCell.h */,
+				C2D06B9C1B2833B500FCC492 /* MovieListCell.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2559A1C1B259BC90059F4EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2559A1D1B259BC90059F4EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C25599C51B258E1F0059F4EB /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25599E91B258E200059F4EB /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				C25599C21B258E1F0059F4EB /* Sources */,
+				C25599C31B258E1F0059F4EB /* Frameworks */,
+				C25599C41B258E1F0059F4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayer;
+			productName = MusicPlayer;
+			productReference = C25599C61B258E1F0059F4EB /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C25599DE1B258E200059F4EB /* MusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25599EC1B258E200059F4EB /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */;
+			buildPhases = (
+				C25599DB1B258E200059F4EB /* Sources */,
+				C25599DC1B258E200059F4EB /* Frameworks */,
+				C25599DD1B258E200059F4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25599E11B258E200059F4EB /* PBXTargetDependency */,
+			);
+			name = MusicPlayerTests;
+			productName = MusicPlayerTests;
+			productReference = C25599DF1B258E200059F4EB /* MusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C25599BE1B258E1F0059F4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "安晨硕";
+				TargetAttributes = {
+					C25599C51B258E1F0059F4EB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C25599DE1B258E200059F4EB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C25599C51B258E1F0059F4EB;
+					};
+				};
+			};
+			buildConfigurationList = C25599C11B258E1F0059F4EB /* Build configuration list for PBXProject "MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C25599BD1B258E1F0059F4EB;
+			productRefGroup = C25599C71B258E1F0059F4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C25599C51B258E1F0059F4EB /* MusicPlayer */,
+				C25599DE1B258E200059F4EB /* MusicPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C25599C41B258E1F0059F4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25599DA1B258E1F0059F4EB /* LaunchScreen.xib in Resources */,
+				C25599D71B258E1F0059F4EB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25599DD1B258E200059F4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C25599C21B258E1F0059F4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25599CC1B258E1F0059F4EB /* main.m in Sources */,
+				C2D06BA01B28388300FCC492 /* HomeController.m in Sources */,
+				C2559A1E1B259BC90059F4EB /* SpecialTrainCampController.m in Sources */,
+				C2559A241B259BC90059F4EB /* HotTopicController.m in Sources */,
+				C2D06B9D1B2833B500FCC492 /* MovieListCell.m in Sources */,
+				C2559A231B259BC90059F4EB /* CustomTabBarController.m in Sources */,
+				C2559A1F1B259BC90059F4EB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25599DB1B258E200059F4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25599E61B258E200059F4EB /* MusicPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C25599E11B258E200059F4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25599C51B258E1F0059F4EB /* MusicPlayer */;
+			targetProxy = C25599E01B258E200059F4EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C25599D81B258E1F0059F4EB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25599D91B258E1F0059F4EB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C25599E71B258E200059F4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C25599E81B258E200059F4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C25599EA1B258E200059F4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C25599EB1B258E200059F4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C25599ED1B258E200059F4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicPlayer.app/MusicPlayer";
+			};
+			name = Debug;
+		};
+		C25599EE1B258E200059F4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicPlayer.app/MusicPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C25599C11B258E1F0059F4EB /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25599E71B258E200059F4EB /* Debug */,
+				C25599E81B258E200059F4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25599E91B258E200059F4EB /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25599EA1B258E200059F4EB /* Debug */,
+				C25599EB1B258E200059F4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25599EC1B258E200059F4EB /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25599ED1B258E200059F4EB /* Debug */,
+				C25599EE1B258E200059F4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C25599BE1B258E1F0059F4EB /* Project object */;
+}
