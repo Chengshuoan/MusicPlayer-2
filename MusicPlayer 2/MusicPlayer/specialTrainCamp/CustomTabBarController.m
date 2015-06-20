@@ -33,7 +33,7 @@
     UINavigationController * navHome = [[UINavigationController alloc]initWithRootViewController:homeVC];
     [self addChildViewController:navHome];
     
-    
+    NSLog(@"dgfdg");
     
     
     
